@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12.5px 10px;
+    padding: 12.5px 15.5%;
     background-color: #44b;
 }
 
@@ -45,19 +45,28 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 12.5px 16%;
+}
+
+.pageTitle{
+    color: #44b;
+    font-size: 32px;
+
 }
 
 .searchBar {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 73%;
   margin: 10px auto; 
+  margin-left: 3%;
 }
 
 .searchBar input {
   flex: 1;
   padding: 5px 8px;
-  border: 1px solid #ccc;
+  border: 1px #ccc;
+  border-bottom: 1px solid #44b;
   font-size: 1rem;
   outline: none;
   
@@ -72,5 +81,14 @@ a {
   font-size: 1rem;
   cursor: pointer;
 }
+
+.deals {
+    background-color: #d40808;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
 
 
