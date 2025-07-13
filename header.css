@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #eee;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #44b;
+  padding: 10px 20px;
+}
+
+/* Make nav a flex container for horizontal layout */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1279px;
+  padding: 2.5px 0px;
+}
+
+menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.headerLi:not(:last-child)::after {
+  content: "|";
+  margin: 0 4px;
+  color: white;
+  display: inline-block;
+  transform: scaleY(2);
+}
+
+/* ------------------------------------------------------------------------ */
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.searchMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1279px;
+  padding: 2px 0px;
+}
+
+.pageTitle {
+  color: #44b;
+  font-size: 32px;
+  padding-left: 10px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  width: 73%;
+  margin: 10px auto;
+  margin-left: 3%;
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 7.4px 8px;
+  border: 1px #ccc;
+  border-bottom: 1px solid #44b;
+  font-size: .8rem;
+  outline: none;
+}
+
+.searchBar button {
+  padding: 4.3px 8px;
+  border: 1px solid #ccc;
+  border-left: none;
+  background-color: #44b;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.deals {
+  background-color: #d40808;
+  color: white;
+  width: 210px;
+  white-space: nowrap;
+  margin-left: 18px;
+  padding: 10px;
+  font-size: 17px;
+}
