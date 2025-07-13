@@ -16,7 +16,7 @@ body {
 }
 
 /* Make nav a flex container for horizontal layout */
-nav {
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +52,7 @@ a {
   padding: 10px 20px;
 }
 
-.searchMenu {
+.search-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
