@@ -40,9 +40,31 @@ main {
   padding: 17px 88px 17px 10px;
 }
 
+.price {
+  margin-right: 40px;
+}
 
+.productPrice_Cart {
+  background-color: #44b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* pushes button to far right */
+  padding: 17px 10px;
+  margin-top: 10px;
+}
 
+.addToCartBtn {
+  background-color: #228;
+  color: white;
+  padding: 5px 10px 3px;
+  border: none;
+  cursor: pointer;
+}
 
+.addToCartBtn:hover {
+  background-color: #44b;
+}
 
 
 
