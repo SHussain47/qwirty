@@ -33,6 +33,13 @@ main {
     list-style: none;
 }
 
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Push footer to bottom */
+  height: 100%; /* Ensures the product fills its container */
+}
+
 .productName {
   background-color: #44b;
   color: white;
