@@ -28,7 +28,20 @@
 main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    list-style: none;
 }
+
+.product {
+  white-space: nowrap;
+}
+
+.productName {
+  background-color: #44b;
+  color: white;
+  margin-right: 8px;
+  padding: 10px;
+}
+
 
 
 
